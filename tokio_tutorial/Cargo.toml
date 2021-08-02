@@ -1,0 +1,10 @@
+[package]
+edition = "2018"
+name = "tokio_tutorial"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+mini-redis = "0.4"
+tokio = {version = "1", features = ["full"]}
